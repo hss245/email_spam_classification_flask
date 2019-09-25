@@ -12,7 +12,7 @@
 		<br></br>
 		<br></br>
 		<br></br>
-		<form action = "http://localhost:5000/spamm" method = "post" align='left'>
+		<form action = "{{ url_for('spamm')}}" method = "post" align='left'>
 			<p><font color='#FF2266' size=5> Enter email text 
 			<p></p><input type="text" name="keyword" size="50" height='65'/></p>
 			<p><input type="submit" value="Evaluate" style="font-size:17pt;color:white; background-color:black;border:2px solid #000000;padding:3px;<font color='"Red"' align='centre'/></p>
