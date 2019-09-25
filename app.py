@@ -13,7 +13,7 @@ mails_tfidf = vectorizer.fit_transform(data['Message'].values.tolist())
 
 @app.route('/')
 def home():
-	return render_template('main.html')
+	return render_template('index.html')
 
 @app.route('/spamm',methods=['POST'])
 def spamm():
