@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<body style="background-color:#FFFFFF;">
+<html>
+	<body>
+		<style>
+		{ height:2000px;font-size:14pt;}
+		</style>
+		<img src = "logo.png" align = 'right'>
+		<h1><font size=16 color=#6600FF>Email Spam Classification</h1></font>
+		<br></br>
+		<br></br>
+		<br></br>
+		<br></br>
+		<br></br>
+		<form action = "http://localhost:5000/spamm" method = "post" align='left'>
+			<p><font color='#FF2266' size=5> Enter email text 
+			<p></p><input type="text" name="keyword" size="50" height='65'/></p>
+			<p><input type="submit" value="Evaluate" style="font-size:17pt;color:white; background-color:black;border:2px solid #000000;padding:3px;<font color='"Red"' align='centre'/></p>
+			<br></br>
+			<br></br>
+			{{prediction_text}}
+		</form>
+	</body>
+</html>
